@@ -1,0 +1,4 @@
+/* Bump the body below the fixed navigation bar */
+body.has-navbar-fixed-top {
+  padding-top: 5rem;
+}

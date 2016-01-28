@@ -1,0 +1,21 @@
+{% extends "layout.twig" %}
+
+{% block body %}
+  <h1>All components</h1>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <td>Name</td>
+        <td>Component</td>
+      </tr>
+    </thead>
+    <tbody>
+      {% for component in components %}
+        <tr>
+          <td>{{ component.name }}</td>
+          <td>{{ component.type }}_{{ component.plugin }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

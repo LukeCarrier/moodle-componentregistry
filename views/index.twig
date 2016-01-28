@@ -1,0 +1,26 @@
+{% extends "layout.twig" %}
+
+{% block body %}
+  <h1>Moodle component registry</h1>
+  <div>
+    Tracking <strong>{{ numVersions }}</strong> versions of <strong>{{ numComponents }}</strong> components
+  </div>
+
+  <h2>Most installed</h2>
+  <div class="alert alert-info" role="alert">
+    <strong>Coming soon.</strong>
+    We need to implement auditing Moodle sites before we can do this.
+  </div>
+
+  <h2>Recently updated</h2>
+  <div class="alert alert-info" role="alert">
+    <strong>Coming soon.</strong>
+    We need to store version release timestamps before we can display them here.
+  </div>
+
+  <h2>Most depended upon</h2>
+  <div class="alert alert-info" role="alert">
+    <strong>Coming soon.</strong>
+    We need to parse this data out of <code>version.php</code> files before it can be presented here.
+  </div>
+{% endblock %}

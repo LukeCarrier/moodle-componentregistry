@@ -1,0 +1,21 @@
+{
+  "name": "moodle-componentregistry",
+  "description": "Moodle component registry",
+  "main": "index.js",
+  "authors": [
+    {
+      "name": "Luke Carrier",
+      "email": "luke@carrier.im"
+    }
+  ],
+  "license": "GPL-3.0+",
+  "keywords": [
+    "moodle"
+  ],
+  "homepage": "https://github.com/LukeCarrier/moodle-componentmgr",
+  "moduleType": [],
+  "private": true,
+  "dependencies": {
+    "bootstrap": "4.0"
+  }
+}

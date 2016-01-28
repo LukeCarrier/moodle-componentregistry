@@ -1,0 +1,14 @@
+# npm
+/node_modules/
+/npm-*.log
+
+# Bower
+/public/components/
+
+# Composer
+/composer.lock
+/vendor
+
+# Local configuration
+/db/*.sqlite
+/etc/bootstrap.php

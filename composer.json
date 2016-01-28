@@ -1,0 +1,21 @@
+{
+    "autoload": {
+        "psr-4": {
+            "ComponentRegistry\\": "lib/"
+        }
+    },
+
+    "require": {
+        "silex/silex": "2.0.x-dev",
+        "twig/twig": "~1.0",
+        "symfony/twig-bridge": "^3.0",
+        "doctrine/dbal": "~2.2",
+        "symfony/doctrine-bridge": "^3.0",
+        "vinkla/climb": "^0.8.0",
+        "dflydev/doctrine-orm-service-provider": "^2.0",
+        "okeyaki/silex-doctrine-migrations-service-provider": "^1.0",
+        "guzzlehttp/guzzle": "^6.1",
+        "symfony/serializer": "^3.0",
+        "symfony/property-access": "^3.0"
+    }
+}

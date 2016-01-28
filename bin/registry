@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * Moodle component registry.
+ *
+ * @author Luke Carrier <luke@carrier.im>
+ * @copyright 2015 Luke Carrier
+ * @license GPL v3
+ */
+
+use ComponentRegistry\Task\SynchronisePackageRepositoryTask;
+
+$app = require_once dirname(__DIR__) . '/etc/bootstrap.php';
+
+$task = new SynchronisePackageRepositoryTask(
+        $app['orm.em'], $app['cr.package_repositories']);
+$task->run();

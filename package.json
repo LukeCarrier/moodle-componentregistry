@@ -1,0 +1,31 @@
+{
+  "name": "moodle-componentregistry",
+  "version": "0.1.0",
+  "description": "Moodle component registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bower": "bower"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeCarrier/moodle-componentmgr.git"
+  },
+  "keywords": [
+    "moodle"
+  ],
+  "authors": [
+    {
+      "name": "Luke Carrier",
+      "email": "luke@carrier.im"
+    }
+  ],
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/LukeCarrier/moodle-componentmgr/issues"
+  },
+  "homepage": "https://github.com/LukeCarrier/moodle-componentmgr#readme",
+  "devDependencies": {
+    "bower": "^1.7.2"
+  }
+}
